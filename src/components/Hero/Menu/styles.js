@@ -20,24 +20,10 @@ export const Box = styled.div`
   height: 100%;
   gap: 40px;
 
-  h1 {
-    font-size: var(--big);
-
-    span {
-      color: var(--primary);
-    }
-  }
-
-  p {
-    cursor: pointer;
-    :hover {
-      color: var(--primary);
-    }
-  }
-
   p,
   button {
     font-size: var(--medium);
+    font-weight: 500;
   }
 
   .login {

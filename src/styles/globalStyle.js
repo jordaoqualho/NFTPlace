@@ -24,7 +24,8 @@ export default createGlobalStyle`
     --bright: ${(props) => props.theme.text.bright};
 
     /* Fonts */
-    --main: ${(props) => props.theme.font.family};
+    --main: ${(props) => props.theme.font.main};
+    --secundary: ${(props) => props.theme.font.secundary};
     --micro: ${(props) => props.theme.font.micro};
     --small: ${(props) => props.theme.font.small};
     --medium: ${(props) => props.theme.font.medium};

@@ -5,7 +5,8 @@ declare module "styled-components" {
     title: string;
 
     font: {
-      family: string;
+      main: string;
+      secundary: string;
       micro: string;
       small: string;
       medium: string;

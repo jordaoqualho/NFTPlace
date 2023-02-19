@@ -2,7 +2,8 @@ export default {
   title: "light",
 
   font: {
-    family: "Manrope",
+    main: "CabinetGrotesk",
+    secundary: "chillax",
     micro: "1rem",
     small: "1.4rem",
     medium: "1.6rem",
@@ -17,7 +18,7 @@ export default {
   color: {
     primary: "#4A3AFF",
     secundary: "#c4bafd",
-    light: "#fff",
+    light: "#ffffff",
     background: "#f5f5f5",
     error: "#ea4335",
     warning: "#F6B817",
@@ -26,7 +27,7 @@ export default {
     wrapper: "rgba(255, 255, 255, 0.35)",
     button: "#262626",
     modal: "#ffffff",
-    form: "#c4bafd",
+    form: "#1E344F",
     skeleton: "#E8E9F2",
   },
 

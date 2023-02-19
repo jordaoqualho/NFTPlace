@@ -23,12 +23,16 @@ export const Header = styled.div`
   z-index: 100;
 
   h1 {
+    font-family: var(--secundary);
+    font-weight: 600;
     font-size: var(--super);
     margin-bottom: 40px;
     z-index: 100;
+    color: var(--form);
 
     span {
-      color: var(--primary);
+      color: var(--primary);    
+      font-family: var(--secundary);
     }
   }
 
@@ -69,6 +73,10 @@ export const Body = styled.div`
     img {
       margin-right: 16px;
     }
+
+    p {
+      font-size: var(--small);
+    }
   }
 
   .jane {
@@ -89,7 +97,7 @@ export const Body = styled.div`
     padding: 8px 40px;
     border-radius: 10px;
     font-size: var(--medium);
-        right: 48px;
+    right: 48px;
     bottom: 48px;
   }
 
