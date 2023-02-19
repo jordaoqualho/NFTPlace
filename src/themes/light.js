@@ -3,7 +3,7 @@ export default {
 
   font: {
     main: "CabinetGrotesk",
-    secundary: "chillax",
+    second: "chillax",
     micro: "1rem",
     small: "1.4rem",
     medium: "1.6rem",
@@ -17,7 +17,7 @@ export default {
 
   color: {
     primary: "#4A3AFF",
-    secundary: "#c4bafd",
+    secundary: "#FF7051",
     light: "#ffffff",
     background: "#f5f5f5",
     error: "#ea4335",

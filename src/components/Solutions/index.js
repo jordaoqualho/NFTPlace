@@ -1,42 +1,67 @@
-import { calendar, search, star, user } from "imgs";
-import { Container, Wrapper, Title, Options } from "./styles";
+import {
+  create,
+  linked_dots,
+  linked_dots2,
+  map,
+  payment,
+  shine,
+  sphere_blue,
+  sphere_orange,
+  union,
+  wallet,
+} from "imgs";
+import { Container, Options, Title, Wrapper } from "./styles";
 
 const Solutions = ({ solutionRef }) => {
   return (
     <Container name="container" ref={solutionRef}>
       <Wrapper name="wrapper" className="flex_ccc">
+        <img src={union} alt="union" className="union" />
+        <img src={map} alt="map" className="map" />
         <Title name="title" className="flex_ccc" data-aos="fade-up">
-          <p>Fast Solutions</p>
-          <h1>step by step to get your solutions</h1>
+          <img src={shine} alt="shine" className="shine" />
+          <h1>
+            Lets make <span>your art</span> into digital assets
+          </h1>
         </Title>
         <Options name="options" className="flex_cb" data-aos="fade-up">
-          <div className="box">
-            <img src={search} alt="search" />
-            <h4>Check health complaints</h4>
-            <p>
-              Check the disease so you can easily choose the right specialist
-            </p>
+          <img src={sphere_orange} alt="sphere" className="osphere float_img" />
+          <img src={sphere_blue} alt="shpere" className="bsphere float_img" />
+          <img src={linked_dots} alt="dots" className="ldots float_img" />
+          <img src={linked_dots2} alt="dots" className="ldots2 float_img" />
+          <div className="box mt-3 flex_ccb">
+            <div>
+              <img src={create} alt="create" />
+              <h4>Create </h4>
+              <p>
+                Click My Collections and set up your collection. Add a
+                description, profile & banner images, and set a secondary sales
+                fee.
+              </p>
+            </div>
+            <button>Create</button>
           </div>
-          <div className="box">
-            <img src={user} alt="user" />
-            <h4>Choose doctor Specialist</h4>
-            <p>Choose a specialist according to your disease complaints </p>
+          <div className="box flex_ccb">
+            <div>
+              <img src={payment} alt="payment" />
+              <h4>Instant payment</h4>
+              <p>
+                Put NFTs on sale or on auction. Get paid for your digital
+                collectables{" "}
+              </p>
+            </div>
+            <button>Sale now</button>
           </div>
-          <div className="box">
-            <img src={calendar} alt="calendar" />
-            <h4>Make a Schedule</h4>
-            <p>
-              Make a schedule with the doctor concerned so you can start the
-              examination{" "}
-            </p>
-          </div>
-          <div className="box">
-            <img src={star} alt="star" />
-            <h4>Get your Solutions</h4>
-            <p>
-              After conducting an examination with a specialist we can help find
-              the right healing method{" "}
-            </p>
+          <div className="box mt-3 flex_ccb">
+            <div>
+              <img src={wallet} alt="wallet" />
+              <h4>Set up your wallet</h4>
+              <p>
+                Once you’ve set up your wallet of choice, connect it by clicking
+                the wallet icon in the top right corner.
+              </p>
+            </div>
+            <button>Connect</button>
           </div>
         </Options>
       </Wrapper>

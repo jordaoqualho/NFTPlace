@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: var(--background);
-  padding-top: 100px;
-  height: 100vh;
+  position: relative;
+  padding-top: 80px;
+  min-height: 100vh;
   width: 100%;
+  z-index: 20;
 `;
 
 export const Wrapper = styled.div`
@@ -15,7 +17,6 @@ export const Wrapper = styled.div`
   place-items: center;
   position: relative;
   flex: 1;
-
 `;
 
 export const Header = styled.div`
@@ -23,16 +24,15 @@ export const Header = styled.div`
   z-index: 100;
 
   h1 {
-    font-family: var(--secundary);
+    font-family: var(--second);
     font-weight: 600;
     font-size: var(--super);
-    margin-bottom: 40px;
     z-index: 100;
     color: var(--form);
 
     span {
-      color: var(--primary);    
-      font-family: var(--secundary);
+      color: var(--primary);
+      font-family: var(--second);
     }
   }
 
@@ -41,9 +41,7 @@ export const Header = styled.div`
     font-size: var(--medium);
     margin: 26px 0;
   }
-
 `;
-
 
 export const Body = styled.div`
   position: relative;
@@ -51,7 +49,7 @@ export const Body = styled.div`
   .landscape {
     position: relative;
     width: 100%;
-  } 
+  }
 
   .circle {
     transform: translate(50%);
@@ -80,25 +78,25 @@ export const Body = styled.div`
   }
 
   .jane {
-    right: 24px;    
+    right: 24px;
     top: 16px;
   }
 
-    .anna {
-    left: 24px;    
+  .anna {
+    left: 24px;
     top: 16px;
   }
 
-  
   button {
     background-color: var(--primary);
     position: absolute;
     color: var(--basic);
-    padding: 8px 40px;
-    border-radius: 10px;
-    font-size: var(--medium);
+    padding: 12px 48px;
+    border-radius: 8px;
+    font-size: var(--large);
+    font-weight: bold;
     right: 48px;
-    bottom: 48px;
+    bottom: 32px;
   }
 
   .details {
@@ -107,7 +105,7 @@ export const Body = styled.div`
     left: 24px;
     bottom: 24px;
     color: var(--bright);
-    width: 300px;
+    width: 280px;
+    line-height: 30px;
   }
-
 `;

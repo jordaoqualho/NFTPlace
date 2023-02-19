@@ -4,6 +4,7 @@ import Footer from "components/Footer";
 import GoToTop from "components/GoToTop";
 import Hero from "components/Hero";
 import Menu from "components/Hero/Menu";
+import Marquee from "components/Marquee";
 import Rating from "components/Rating";
 import Schedule from "components/Schedule";
 import Solutions from "components/Solutions";
@@ -44,6 +45,7 @@ const HomePage = () => {
       <Container name="container">
         <Menu name="menu" scrollTo={scrollTo} />
         <Hero name="hero" scrollTo={scrollTo} />
+        <Marquee name="marquee" />
         <Solutions name="solutions" solutionRef={solutionRef} />
         <Doctors name="doctors" doctorRef={doctorRef} />
         <Schedule name="schedule" scheduleRef={scheduleRef} />

@@ -25,7 +25,7 @@ export default createGlobalStyle`
 
     /* Fonts */
     --main: ${(props) => props.theme.font.main};
-    --secundary: ${(props) => props.theme.font.secundary};
+    --second: ${(props) => props.theme.font.second};
     --micro: ${(props) => props.theme.font.micro};
     --small: ${(props) => props.theme.font.small};
     --medium: ${(props) => props.theme.font.medium};
@@ -123,6 +123,13 @@ export default createGlobalStyle`
   .flex_cb {
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
+  }
+
+   .flex_ccb {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     justify-content: space-between;
   }
   

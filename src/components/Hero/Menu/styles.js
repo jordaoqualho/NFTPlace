@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background-color: var(--light);
+  position: relative;
   position: fixed;
-  z-index: 20;
+  z-index: 200;
   height: 70px;
   width: 100%;
 `;
@@ -24,6 +25,7 @@ export const Box = styled.div`
   button {
     font-size: var(--medium);
     font-weight: 500;
+    cursor: pointer;
   }
 
   .login {
