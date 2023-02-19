@@ -1,44 +1,31 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  background-color: var(--background);
+  padding-top: 100px;
   height: 100vh;
   width: 100%;
 `;
 
 export const Wrapper = styled.div`
-  flex-direction: column;
-  display: flex;
   margin: 0 auto;
-  width: 1240px;
+  width: 1200px;
   height: 100%;
-`;
-
-export const Banner = styled.div`
-  flex: 1;
+  display: grid;
+  place-items: center;
   position: relative;
+  flex: 1;
 
-  .doctor {
-    margin-right: -110px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-
-  .circle {
-    position: fixed;
-    bottom: -45vw;
-    width: 70vw;
-    right: -17vw;
-    z-index: 1;
-  }
 `;
 
-export const Info = styled.div`
-  width: 650px;
-  margin-top: 100px;
+export const Header = styled.div`
+  position: relative;
+  z-index: 100;
 
   h1 {
     font-size: var(--super);
+    margin-bottom: 40px;
+    z-index: 100;
 
     span {
       color: var(--primary);
@@ -51,52 +38,68 @@ export const Info = styled.div`
     margin: 26px 0;
   }
 
-  button {
-    background-color: var(--primary);
-    color: var(--basic);
-    padding: 10px 35px;
-    border-radius: 10px;
-    font-size: var(--medium);
-
-    :hover {
-      opacity: 0.75;
-    }
-  }
 `;
 
-export const Modal = styled.div`
-  background-color: var(--background);
-  box-shadow: var(--basicShadow);
-  border-radius: 15px;
-  position: absolute;
-  padding: 15px;
-  right: 40%;
-  bottom: 50px;
 
-  img {
-    border-radius: 50%;
+export const Body = styled.div`
+  position: relative;
+
+  .landscape {
+    position: relative;
+    width: 100%;
+  } 
+
+  .circle {
+    transform: translate(50%);
+    position: absolute;
+    z-index: 1;
+    right: 50%;
+    top: -100px;
   }
 
-  h4 {
-    font-size: var(--medium);
-    margin-top: 10px;
-  }
+  .user {
+    background-color: var(--light);
+    position: absolute;
+    width: fit-content;
+    padding: 16px 24px;
+    border-radius: 24px;
+    width: 240px;
+    box-shadow: 0px 38.1633px 98.8775px -17.3469px rgba(0, 0, 0, 0.25);
 
-  p {
-    font-size: var(--small);
-    color: var(--bright);
-  }
-
-  button {
-    background-color: var(--primary);
-    color: var(--basic);
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-size: var(--small);
-    margin-top: 10px;
-
-    :hover {
-      opacity: 0.75;
+    img {
+      margin-right: 16px;
     }
   }
+
+  .jane {
+    right: 24px;    
+    top: 16px;
+  }
+
+    .anna {
+    left: 24px;    
+    top: 16px;
+  }
+
+  
+  button {
+    background-color: var(--primary);
+    position: absolute;
+    color: var(--basic);
+    padding: 8px 40px;
+    border-radius: 10px;
+    font-size: var(--medium);
+        right: 48px;
+    bottom: 48px;
+  }
+
+  .details {
+    font-size: var(--medium);
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    color: var(--bright);
+    width: 300px;
+  }
+
 `;

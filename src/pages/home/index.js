@@ -3,7 +3,7 @@ import Feedback from "components/Feedback";
 import Footer from "components/Footer";
 import GoToTop from "components/GoToTop";
 import Hero from "components/Hero";
-import LoadingPage from "components/LoadingPage";
+import Menu from "components/Hero/Menu";
 import Rating from "components/Rating";
 import Schedule from "components/Schedule";
 import Solutions from "components/Solutions";
@@ -39,9 +39,10 @@ const HomePage = () => {
 
   return (
     <>
-      <LoadingPage name="loadingPage" />
+      {/* <LoadingPage name="loadingPage" /> */}
       <GoToTop name="goToTop" />
       <Container name="container">
+        <Menu name="menu" scrollTo={scrollTo} />
         <Hero name="hero" scrollTo={scrollTo} />
         <Solutions name="solutions" solutionRef={solutionRef} />
         <Doctors name="doctors" doctorRef={doctorRef} />

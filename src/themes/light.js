@@ -15,10 +15,10 @@ export default {
   },
 
   color: {
-    primary: "#4D77FF",
+    primary: "#4A3AFF",
     secundary: "#c4bafd",
-    light: "#EDF1FF",
-    background: "#ffffff",
+    light: "#fff",
+    background: "#f5f5f5",
     error: "#ea4335",
     warning: "#F6B817",
     complete: "#58d466",
@@ -33,7 +33,7 @@ export default {
   text: {
     basic: "#ffffff",
     contrast: "#262626",
-    bright: "#696969",
+    bright: "#909090",
   },
 
   shadow: {

@@ -1,8 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100px;
+  background-color: var(--light);
+  position: fixed;
+  z-index: 20;
+  height: 70px;
   width: 100%;
+`;
+
+
+export const Wrapper = styled.div`
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
 `;
 
 export const Box = styled.div`
@@ -29,22 +40,11 @@ export const Box = styled.div`
     font-size: var(--medium);
   }
 
-  .signin {
-    background-color: transparent;
-    padding: 10px 20px;
-    margin-right: -20px;
-    border-radius: 10px;
-
-    :hover {
-      background-color: var(--light);
-    }
-  }
-
-  .signup {
+  .login {
     background-color: var(--primary);
     color: var(--basic);
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 10px 40px;
+    border-radius: 8px;
 
     :hover {
       opacity: 0.75;
