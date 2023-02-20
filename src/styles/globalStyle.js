@@ -6,6 +6,7 @@ export default createGlobalStyle`
     /* Colors */
     --primary: ${(props) => props.theme.color.primary};
     --secundary: ${(props) => props.theme.color.secundary};
+    --sky: ${(props) => props.theme.color.sky};
     --light: ${(props) => props.theme.color.light};
     --background: ${(props) => props.theme.color.background};
     --error: ${(props) => props.theme.color.error};
@@ -57,9 +58,19 @@ export default createGlobalStyle`
     font-size: 62.5%; 
   }
 
+  div {
+    position: relative;
+  }
+
   button {
     cursor: pointer;
     transition: var(--fast);
+    border-radius: 8px;
+
+    :hover {
+      transform: translatey(-5%);
+      opacity: 0.9;
+    }
   }
 
   ::-webkit-scrollbar {

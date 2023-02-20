@@ -9,7 +9,6 @@ export const Container = styled.div`
   width: 100%;
 `;
 
-
 export const Wrapper = styled.div`
   display: flex;
   margin: 0 auto;
@@ -24,7 +23,7 @@ export const Box = styled.div`
   p,
   button {
     font-size: var(--medium);
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
   }
 

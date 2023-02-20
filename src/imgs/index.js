@@ -13,6 +13,10 @@ import create from "./png/create.png";
 import payment from "./png/payment.png";
 import wallet from "./png/wallet.png";
 import union from "./png/union.png";
+import elipse1 from "./png/elipse1.png";
+import elipse2 from "./png/elipse2.png";
+import elipse3 from "./png/elipse3.png";
+import elipse4 from "./png/elipse4.png";
 
 import circle from "./svg/circle.svg";
 import circle2 from "./svg/circle2.svg";
@@ -35,6 +39,11 @@ import linked_dots from "./svg/linked_dots.svg";
 import linked_dots2 from "./svg/linked_dots2.svg";
 import sphere_blue from "./svg/sphere_blue.svg";
 import sphere_orange from "./svg/sphere_orange.svg";
+import coin from "./svg/coin.svg";
+import money from "./svg/money.svg";
+import briefcase from "./svg/briefcase.svg";
+import waves1 from "./svg/waves1.svg";
+import waves2 from "./svg/waves2.svg";
 
 export {
   anna,
@@ -71,4 +80,13 @@ export {
   sphere_blue,
   sphere_orange,
   shine,
+  coin,
+  money,
+  briefcase,
+  elipse1,
+  elipse2,
+  elipse3,
+  elipse4,
+  waves1,
+  waves2,
 };

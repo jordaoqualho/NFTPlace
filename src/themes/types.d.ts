@@ -21,6 +21,7 @@ declare module "styled-components" {
     color: {
       primary: string;
       secundary: string;
+      sky: string;
       light: string;
       background: string;
       error: string;

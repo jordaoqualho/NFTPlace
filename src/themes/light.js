@@ -18,6 +18,7 @@ export default {
   color: {
     primary: "#4A3AFF",
     secundary: "#FF7051",
+    sky: "#61A0FF",
     light: "#ffffff",
     background: "#f5f5f5",
     error: "#ea4335",

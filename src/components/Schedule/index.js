@@ -1,30 +1,47 @@
-import { check, reunion } from "imgs";
-import { Container, Wrapper, Info } from "./styles";
+import {
+  elipse1,
+  elipse2,
+  elipse3,
+  elipse4,
+  sphere_orange,
+  waves1,
+  waves2,
+} from "imgs";
+import { Container, Info, Wrapper } from "./styles";
 
 const Schedule = ({ scheduleRef }) => {
   return (
     <Container name="container">
-      <Wrapper name="wrapper" className="flex_cs" ref={scheduleRef}>
-        <img src={reunion} alt="reunion" data-aos="fade-up" />
+      <Wrapper name="wrapper" ref={scheduleRef}>
         <Info name="info" data-aos="fade-up">
-          <h4>Make a Shedule</h4>
-          <h1>Make a schedule in advance with the available doctor</h1>
-          <p>
-            Healthcare is a very painful process, especially if you’re not
-            taking care of your health and having regular check-ups.
-            HealhtyCarely makes it easier for everyone to schedule a doctor’s
-            appointment.
-          </p>
-          <div className="item flex_cs">
-            <img src={check} alt="check" />
-            <h3>Make a schedule online is easy</h3>
-          </div>
-          <div className="item flex_cs">
-            <img src={check} alt="check" />
-            <h3>Easy to connect with doctor</h3>
-          </div>
-          <button>Make Schedule Now!</button>
+          <h4>FEATURES</h4>
+          <h1>We are platform for everyone</h1>
+          <button>Mint purpose</button>
         </Info>
+
+        <div className="coment c1">
+          <img src={elipse1} alt="elipse" />
+          <img src={waves1} alt="waves" className="w1" />
+          <p className="p1">Your exclusive member keycard.</p>
+        </div>
+
+        <div className="coment c2">
+          <img src={elipse2} alt="elipse" />
+          <p>50% Discount on trading fees for keycard holders.</p>
+        </div>
+
+        <div className="coment c3">
+          <img src={elipse3} alt="elipse" />
+          <img src={waves2} alt="waves" className="w2" />
+          <p>The exactly Token Economics is TBA.</p>
+        </div>
+
+        <div className="coment c4">
+          <img src={elipse4} alt="elipse" />
+          <p className="">You don’t have to be a computer geek to buy NFTs.</p>
+        </div>
+
+        <img src={sphere_orange} alt="sphere" className="osphere" />
       </Wrapper>
     </Container>
   );
