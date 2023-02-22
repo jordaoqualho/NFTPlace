@@ -1,30 +1,29 @@
+import { nft_bc, site, sphere_blue, sphere_orange } from "imgs";
 import { Container, Options, Title, Wrapper } from "./styles";
 
 const Rating = ({ ratingRef }) => {
   return (
     <Container name="container" ref={ratingRef}>
-      <Wrapper name="wrapper" className="flex_ccc">
-        <Title name="title" className="flex_ccc" data-aos="fade-up">
-          <p>Our Rating</p>
-          <h1>We’re employee benefit at 7500+ hospital </h1>
+      <Wrapper name="wrapper" className="flex_css">
+        <Title name="title" className="flex_ccs" data-aos="fade-up">
+          <h4>NFT</h4>
+          <h1>
+            PFP NFT <span>Marketplace</span>{" "}
+          </h1>
+          <img src={sphere_blue} alt="shpere" className="bsphere" />
         </Title>
         <Options name="options" className="flex_cb" data-aos="fade-up">
-          <div className="box flex_ccc">
-            <h1>900+</h1>
-            <h4>Verified Specialist</h4>
-            <p>Highly Verified </p>
-          </div>
-          <div className="box flex_ccc">
-            <h1>45000+</h1>
-            <h4>Happy Costumers</h4>
-            <p>Highly Performance</p>
-          </div>
-          <div className="box flex_ccc">
-            <h1>99,7%</h1>
-            <h4>Positive Feedback</h4>
-            <p>Costumers Apporove</p>
-          </div>
+          <img src={site} alt="site" />
         </Options>
+        <div className="box flex_css">
+          <p>
+            We regulated NFT marketplace and payable in Cryptocurrencies and
+            FIAT. You don’t have to be a computer geek to buy NFTs.
+          </p>
+          <button>Dicover now</button>
+        </div>
+        <img src={nft_bc} alt="nft_bc" className="nft_bc" />
+        <img src={sphere_orange} alt="shpere" className="osphere" />
       </Wrapper>
     </Container>
   );

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: var(--background);
+  background-color: var(--light);
   position: relative;
   width: 100%;
+  height: 520px;
 `;
 
 export const Wrapper = styled.div`
@@ -12,53 +13,83 @@ export const Wrapper = styled.div`
   margin: 0 auto;
   display: flex;
   width: 1240px;
-  height: 100%;
-`;
+  height: 480px;
 
-export const Text = styled.div`
-  width: 400px;
+  .footer_bc {
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
 
-  h1 {
-    font-size: var(--large);
-    margin-bottom: 5px;
+  .logo {
+    position: absolute;
+    width: 64px;
+    left: 48px;
+    top: 48px;
+  }
 
-    span {
-      color: var(--primary);
+  .media {
+    flex-direction: column;
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    bottom: 72px;
+    left: 48px;
+    gap: 40px;
+
+    img {
+      transition: opacity var(--fast);
+      cursor: pointer;
+      width: 40px;
+
+      :hover {
+        transform: translateY(-10%);
+        opacity: 0.8;
+      }
     }
   }
 
-  p {
-    font-size: var(--small);
+  .rights {
+    position: absolute;
+    bottom: 24px;
+    color: var(--bright);
+    left: 50%;
+    transform: translateX(-50%);
+    p {
+      font-size: var(--large);
+      font-weight: bold;
+    }
   }
 `;
 
 export const Navigation = styled.div`
   display: flex;
-  gap: 70px;
+  width: 100%;
+  gap: 160px;
 
-  .column {
-    h1 {
-      font-size: var(--large);
-      margin-bottom: 10px;
+  p {
+    transition: opacity var(--fast);
+    font-size: var(--large);
+    color: var(--form);
+    cursor: pointer;
+
+    :hover {
+      color: var(--secundary);
     }
+  }
 
-    p {
-      font-size: var(--small);
-      cursor: pointer;
-      margin-bottom: 5px;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
 
-      :hover {
-        color: var(--primary);
-      }
-    }
+  .menu {
+    font-weight: 600;
+  }
 
-    img {
-      margin-right: 10px;
-      cursor: pointer;
-
-      :hover {
-        opacity: 0.75;
-      }
-    }
+  .newsletter,
+  .contact {
+    font-weight: 800;
   }
 `;

@@ -17,6 +17,9 @@ import elipse1 from "./png/elipse1.png";
 import elipse2 from "./png/elipse2.png";
 import elipse3 from "./png/elipse3.png";
 import elipse4 from "./png/elipse4.png";
+import nft_bc from "./png/nft_bc.png";
+import site from "./png/site.png";
+import footer_bc from "./png/footer_bc.png";
 
 import circle from "./svg/circle.svg";
 import circle2 from "./svg/circle2.svg";
@@ -26,9 +29,10 @@ import calendar from "./svg/calendar.svg";
 import check from "./svg/check.svg";
 import arrow from "./svg/arrow.svg";
 import arrow_blue from "./svg/arrow_blue.svg";
+
+import direct from "./svg/direct.svg";
+import discord from "./svg/discord.svg";
 import twitter from "./svg/twitter.svg";
-import instagram from "./svg/instagram.svg";
-import facebook from "./svg/facebook.svg";
 
 import star from "./svg/star.svg";
 import logo from "./svg/logo.svg";
@@ -68,9 +72,9 @@ export {
   check,
   arrow,
   arrow_blue,
+  direct,
+  discord,
   twitter,
-  instagram,
-  facebook,
   reunion,
   client,
   logo,
@@ -89,4 +93,7 @@ export {
   elipse4,
   waves1,
   waves2,
+  nft_bc,
+  site,
+  footer_bc,
 };

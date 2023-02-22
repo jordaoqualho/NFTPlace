@@ -6,9 +6,7 @@ const Menu = ({ scrollTo }) => {
     <Container name="container" className="flex_cb">
       <Wrapper className="flex_cb">
         <Box name="box" className="flex_cs">
-          <h1>
-            <img src={logo} alt="logo" />
-          </h1>
+          <img src={logo} alt="logo" className="logo"/>
           <p onClick={() => scrollTo("about")}>About</p>
           <p onClick={() => scrollTo("projects")}>Projects</p>
           <p onClick={() => scrollTo("marketplace")}>Marketplace</p>

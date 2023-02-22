@@ -27,6 +27,10 @@ export const Box = styled.div`
     cursor: pointer;
   }
 
+  .logo {
+    width: 30px;
+  }
+
   .login {
     background-color: var(--primary);
     color: var(--basic);

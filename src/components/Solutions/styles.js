@@ -34,8 +34,8 @@ export const Title = styled.div`
 
   .shine {
     position: absolute;
-    top: 64px;
-    right: 340px;
+    top: -24px;
+    right: -40px;
   }
 
   h1 {

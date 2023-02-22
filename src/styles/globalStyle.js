@@ -105,6 +105,12 @@ export default createGlobalStyle`
     justify-content: center;
   }
 
+  .flex_rsc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
   .flex_ccc {
     display: flex;
     align-items: center;
