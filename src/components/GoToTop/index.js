@@ -1,4 +1,3 @@
-import { arrow_blue } from "imgs";
 import { useEffect, useRef } from "react";
 import { Button } from "./styles";
 
@@ -25,7 +24,7 @@ const GoToTop = () => {
 
   return (
     <Button name="button" onClick={() => goTop()} ref={button}>
-      <img src={arrow_blue} alt="arrow_blue" />
+      {/* <img src={arrow_blue} alt="arrow_blue" /> */}
     </Button>
   );
 };
