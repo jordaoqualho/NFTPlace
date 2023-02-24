@@ -14,10 +14,10 @@ const Footer = () => {
         </div>
         <Navigation name="navigation" className="flex_rsc">
           <div className="menu">
-            <p>Projects</p>
+            <p>About</p>
+            <p>Evaluation</p>
+            <p>Features</p>
             <p>Marketplace</p>
-            <p>Governance</p>
-            <p>Discord</p>
           </div>
           <div className="newsletter">
             <p>Newsletter</p>

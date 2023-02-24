@@ -39,8 +39,8 @@ export default createGlobalStyle`
 
     /* Shadows */
     --basicShadow: ${(props) => props.theme.shadow.basic};
-    --darkShadow: ${(props) => props.theme.shadow.dark};
     --normalShadow: ${(props) => props.theme.shadow.normal}; 
+    --darkShadow: ${(props) => props.theme.shadow.dark};
 
     /* Transitions */
     --fast: ${(props) => props.theme.transition.fast};

@@ -1,10 +1,10 @@
 import { briefcase, coin, money, sphere_blue, sphere_orange } from "imgs";
 import { Container, Growth, Info, Wrapper } from "./styles";
 
-const Doctors = ({ doctorRef }) => {
+const Evaluation = ({ evaluationRef }) => {
   return (
     <>
-      <Container name="container" ref={doctorRef}>
+      <Container name="container" ref={evaluationRef}>
         <Wrapper name="wrapper" className="flex_cc">
           <Info name="info" data-aos="fade-up" className="flex_ccc">
             <img src={sphere_orange} alt="sphere" className="osphere" />
@@ -51,4 +51,4 @@ const Doctors = ({ doctorRef }) => {
   );
 };
 
-export default Doctors;
+export default Evaluation;

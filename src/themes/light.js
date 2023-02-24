@@ -26,7 +26,7 @@ export default {
     complete: "#58d466",
     border: "#d7d7d8",
     wrapper: "rgba(255, 255, 255, 0.35)",
-    button: "#262626",
+    button: "#E6F5D0",
     modal: "#ffffff",
     form: "#1E344F",
     skeleton: "#E8E9F2",
@@ -40,8 +40,8 @@ export default {
 
   shadow: {
     basic: "0px 10px 40px rgba(18, 18, 18, 0.1)",
+    normal: "0px 38.1633px 98.8775px -17.3469px rgba(0, 0, 0, 0.25)",
     dark: "0px 5px 5px rgb(0 0 0 / 10%)",
-    normal: "2px 2px 10px 5px rgb(0 0 0 / 5%)",
   },
 
   transition: {

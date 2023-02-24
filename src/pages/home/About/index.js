@@ -12,9 +12,9 @@ import {
 } from "imgs";
 import { Container, Options, Title, Wrapper } from "./styles";
 
-const Solutions = ({ solutionRef }) => {
+const About = ({ aboutRef }) => {
   return (
-    <Container name="container" ref={solutionRef}>
+    <Container name="container" ref={aboutRef}>
       <Wrapper name="wrapper" className="flex_ccc">
         <img src={union} alt="union" className="union" />
         <img src={map} alt="map" className="map" />
@@ -69,4 +69,4 @@ const Solutions = ({ solutionRef }) => {
   );
 };
 
-export default Solutions;
+export default About;

@@ -12,6 +12,7 @@ import site from "./png/site.png";
 import syne from "./png/syne.png";
 import union from "./png/union.png";
 import wallet from "./png/wallet.png";
+import columns from "./png/columns.png";
 
 import circle from "./svg/circle.svg";
 
@@ -67,4 +68,5 @@ export {
   site,
   footer_bc,
   syne,
+  columns,
 };

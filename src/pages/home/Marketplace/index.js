@@ -1,9 +1,9 @@
 import { nft_bc, site, sphere_blue, sphere_orange } from "imgs";
 import { Container, Options, Title, Wrapper } from "./styles";
 
-const Rating = ({ ratingRef }) => {
+const Marketplace = ({ marketplaceRef }) => {
   return (
-    <Container name="container" ref={ratingRef}>
+    <Container name="container" ref={marketplaceRef}>
       <Wrapper name="wrapper" className="flex_css">
         <Title name="title" className="flex_ccs" data-aos="fade-up">
           <h4>NFT</h4>
@@ -29,4 +29,4 @@ const Rating = ({ ratingRef }) => {
   );
 };
 
-export default Rating;
+export default Marketplace;

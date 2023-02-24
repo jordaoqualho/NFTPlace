@@ -9,10 +9,10 @@ import {
 } from "imgs";
 import { Container, Info, Wrapper } from "./styles";
 
-const Schedule = ({ scheduleRef }) => {
+const Features = ({ featuresRef }) => {
   return (
     <Container name="container">
-      <Wrapper name="wrapper" ref={scheduleRef}>
+      <Wrapper name="wrapper" ref={featuresRef}>
         <Info name="info" data-aos="fade-up">
           <h4>FEATURES</h4>
           <h1>We are platform for everyone</h1>
@@ -47,4 +47,4 @@ const Schedule = ({ scheduleRef }) => {
   );
 };
 
-export default Schedule;
+export default Features;

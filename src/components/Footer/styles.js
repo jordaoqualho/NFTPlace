@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: var(--light);
   position: relative;
-  width: 100%;
   height: 520px;
+  margin-top: 100px;
+  width: 100%;
 `;
 
 export const Wrapper = styled.div`
