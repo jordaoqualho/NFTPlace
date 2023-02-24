@@ -1,7 +1,7 @@
 import { direct, discord, footer_bc, logo, twitter } from "imgs";
 import { Container, Navigation, Wrapper } from "./styles";
 
-const Footer = () => {
+const Footer = ({ scrollTo }) => {
   return (
     <Container name="container">
       <Wrapper name="wrapper">
@@ -14,10 +14,11 @@ const Footer = () => {
         </div>
         <Navigation name="navigation" className="flex_rsc">
           <div className="menu">
-            <p>About</p>
-            <p>Evaluation</p>
-            <p>Features</p>
-            <p>Marketplace</p>
+            <p onClick={() => scrollTo("about")}>About</p>
+            <p onClick={() => scrollTo("evaluation")}>Evaluation</p>
+            <p onClick={() => scrollTo("features")}>Features</p>
+            <p onClick={() => scrollTo("marketplace")}>Marketplace</p>
+            <p onClick={() => scrollTo("contact")}>Contact</p>
           </div>
           <div className="newsletter">
             <p>Newsletter</p>

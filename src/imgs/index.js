@@ -13,9 +13,16 @@ import syne from "./png/syne.png";
 import union from "./png/union.png";
 import wallet from "./png/wallet.png";
 import columns from "./png/columns.png";
+import transform from "./png/transform.png";
+import sphere_blue from "./png/sphere_blue.png";
+import sphere_orange from "./png/sphere_orange.png";
+import cube from "./png/cube.png";
+import cone from "./png/cone.png";
+import rosca from "./png/rosca.png";
+import blue_bc from "./png/blue_bc.png";
+import arrow_up from "./png/arrow_up.png";
 
 import circle from "./svg/circle.svg";
-
 import direct from "./svg/direct.svg";
 import discord from "./svg/discord.svg";
 import twitter from "./svg/twitter.svg";
@@ -29,35 +36,33 @@ import logo from "./svg/logo.svg";
 import map from "./svg/map.svg";
 import money from "./svg/money.svg";
 import shine from "./svg/shine.svg";
-import sphere_blue from "./svg/sphere_blue.svg";
-import sphere_orange from "./svg/sphere_orange.svg";
+
 import star from "./svg/star.svg";
 import waves1 from "./svg/waves1.svg";
 import waves2 from "./svg/waves2.svg";
 
 export {
   anna,
+  site,
   jane,
+  map,
+  star,
+  coin,
+  money,
   create,
   payment,
   wallet,
   union,
-  map,
+  logo,
+  shine,
+  briefcase,
   circle,
-  star,
   direct,
   discord,
   twitter,
-  logo,
   landscape,
   linked_dots,
   linked_dots2,
-  sphere_blue,
-  sphere_orange,
-  shine,
-  coin,
-  money,
-  briefcase,
   elipse1,
   elipse2,
   elipse3,
@@ -65,8 +70,15 @@ export {
   waves1,
   waves2,
   nft_bc,
-  site,
   footer_bc,
   syne,
   columns,
+  sphere_blue,
+  sphere_orange,
+  transform,
+  cube,
+  cone,
+  rosca,
+  blue_bc,
+  arrow_up,
 };

@@ -11,7 +11,7 @@ const Menu = ({ scrollTo }) => {
           <p onClick={() => scrollTo("evaluation")}>Evaluation</p>
           <p onClick={() => scrollTo("features")}>Features</p>
           <p onClick={() => scrollTo("marketplace")}>Marketplace</p>
-          <p onClick={() => scrollTo("discord")}>Discord</p>
+          <p onClick={() => scrollTo("contact")}>Contact</p>
         </Box>
         <Box name="box" className="flex_cs">
           <button className="login">Log in</button>

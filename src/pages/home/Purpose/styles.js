@@ -25,7 +25,7 @@ export const Wrapper = styled.div`
   .bsphere {
     position: absolute;
     width: 24px;
-    top: 240px;
+    top: 22%;
     left: 40%;
   }
 
@@ -86,8 +86,8 @@ export const Title = styled.div`
 
 export const Gees = styled.div`
   position: absolute;
-  left: 240px;
-  top: 80px;
+  left: 10%;
+  top: 50px;
 
   .name {
     font-family: var(--second);

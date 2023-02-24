@@ -8,17 +8,17 @@ export const Button = styled.div`
   z-index: 11;
   padding: 15px;
   background: var(--skeleton);
-  box-shadow: var(--basicShadow);
+  box-shadow: var(--darkShadow);
   border-radius: 5px;
   transition: var(--fast);
   opacity: 0;
+  padding-bottom: 10px;
 
   :hover {
     background: var(--light);
   }
 
   img {
-    transform: rotate(-90deg);
     width: 25px;
   }
 `;

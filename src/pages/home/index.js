@@ -10,6 +10,8 @@ import Features from "pages/home/Features";
 import About from "pages/home/About";
 import { useRef } from "react";
 import { Container } from "./styles";
+import Transform from "pages/home/Transform";
+import Contact from "pages/home/Contact";
 
 const HomePage = () => {
   const aboutRef = useRef(null);
@@ -17,6 +19,7 @@ const HomePage = () => {
   const featuresRef = useRef(null);
   const marketplaceRef = useRef(null);
   const purposeRef = useRef(null);
+  const contactRef = useRef(null);
 
   const scrollTo = (target) => {
     const scrollConfig = {
@@ -39,6 +42,9 @@ const HomePage = () => {
 
       case "purpose":
         return purposeRef.current.scrollIntoView(scrollConfig);
+
+      case "contact":
+        return contactRef.current.scrollIntoView(scrollConfig);
     }
   };
 
@@ -55,7 +61,9 @@ const HomePage = () => {
         <Features name="features" featuresRef={featuresRef} />
         <Marketplace name="marketplace" marketplaceRef={marketplaceRef} />
         <Purpose name="purpose" purposeRef={purposeRef} />
-        <Footer name="footer" />
+        <Transform name="transform" />
+        <Contact name="contact" contactRef={contactRef} />
+        <Footer name="footer" scrollTo={scrollTo} />
       </Container>
     </>
   );
